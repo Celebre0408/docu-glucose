@@ -173,15 +173,20 @@
 </div>
 
 <a href="https://drive.google.com/file/d/1iDJyqi1ABY0K6r3yl4An2BwuKQDDyz_j/view?usp=sharing" class="flex justify-center items-center"><button class="btn btn-active btn-info">Download</button></a>
+<br>
 
 <div class="fab">
   <!-- a focusable div with tabindex is necessary to work on all browsers. role="button" is necessary for accessibility -->
-  <div tabindex="0" role="button" class="btn btn-lg btn-circle btn-success"><img src="images/logo.png" alt=""></div>
+  <div tabindex="0" role="button" class="btn btn-lg btn-circle btn-info"><img src="images/logo.png" alt=""></div>
+
+  <!-- close button should not be focusable so it can close the FAB when clicked. It's just a visual placeholder -->
+  <div class="fab-close">
+    Close <span class="btn btn-circle btn-lg btn-error">✕</span>
+  </div>
 
   <!-- buttons that show up when FAB is open -->
-  <button class="btn btn-lg"><a href="https://glucose.infinityfree.me/register.php">signup</a></button>
-  <button class="btn btn-lg"><a href="https://glucose.infinityfree.me">login</a></button>
-  <button class="btn btn-lg" href="https://glucose.infinityfree.me">Button C</button>
+  <div>Login<a href="https://glucose.infinityfree.me"><button class="btn btn-lg btn-circle">L</button></a></div>
+  <div>Sign-up<a href="https://glucose.infinityfree.me/register.php"><button class="btn btn-lg btn-circle">S</button></a></div>
 </div>
 
 <!-- footer -->
