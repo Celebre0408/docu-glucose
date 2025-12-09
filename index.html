@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+</head>
+<body class="m-0">
+        <div class="navbar bg-base-100 bg-blue-100">
+        <div class="flex-1">
+            <a class="text-center p-5 text-xl text-blue-700 p-5 font-semibold lg:text-3xl md:text-3xl sm:text-1xl">Glucose</a>
+        </div>
+        <div class="flex gap-2">
+            <div class="dropdown dropdown-end">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                <div class="w-10 rounded-full">
+                <img
+                    alt="Tailwind CSS Navbar component"
+                    src="images/logo.png" />
+                </div>
+            </div>
+            <!-- <ul
+                tabindex="-1"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                <li>
+                <a class="justify-between">
+                    Profile
+                    <span class="badge">New</span>
+                </a>
+                </li>
+                <li><a>Settings</a></li>
+                <li><a>Logout</a></li>
+            </ul> -->
+            </div>
+        </div>
+        </div>
+
+    <h1 class="text-center p-5 text-xl text-blue-700 p-5 font-semibold lg:text-6xl md:text-3xl sm:text-1xl">Introducing Glucose Web</h1>
+    <br>
+
+    <div class="flex justify-center items-center">
+        <div class="mockup-browser border border-base-300 w-[90%]">
+            <div class="mockup-browser-toolbar">
+                <div class="input">glucose.infinityfree.me</div>
+            </div>
+
+             <img src="images/glucose.png" alt="logo1">
+          </div>
+    </div>
+
+    <h1 class="text-center p-5 text-xl text-blue-700 p-5 font-semibold lg:text-6xl md:text-3xl sm:text-1xl">Project Documentation</h1>
+
+    <div class="flex justify-center items-center">
+        <div class="w-[90%]">
+            <h1 class="text-xl lg:text-4xl md:text-3xl sm:text-2xl text-blue-400">Introduction</h1>
+            <br><hr><br>
+            <p class="lg:text-2xl md:text-2xl sm:text-sm">Glucose and sugar were actually developed because of my mother. Initially, the system was called an e-notebook, which is an online e-notebook, but then my mother was hospitalized and needed to monitor her water intake and blood sugar. I decided to revise the interface and functions according to her needs.</p>
+        </div>
+    </div>
+    <br>
+
+    <div class="flex justify-center items-center">
+        <div class="w-[90%]">
+            <h1 class="text-xl lg:text-4xl md:text-3xl sm:text-2xl text-blue-400">Scope and Limitation</h1>
+            <br><hr><br>
+            <p class="lg:text-2xl md:text-2xl sm:text-sm">The project scope is not that broad; it has 2 interfaces, the water and the sugar. The water shows the water intake for the past 7 days, and it's the same in the sugar interface, but the difference is the sugar has 2 graphs, the AM and PM, or day and night, for those patients that need to monitor their blood sugar twice a day. Additionally, both will turn red if you exceed the limit; for example, in water, it will turn red if you consume more than 1000 cc, and in sugar, it will turn red if it exceeds 120 in the morning and 130 at night. The project is cross-platform, as it's working across different devices. It's actually web-based, but we have an Android APK using median.co. The limitation of the project as of now is you can't print reports due to hosting problems. In InfinityFree you can upload up to 10 files per upload, but you can't upload the vendor, as it has 100+ files inside it.</p>
+        </div>
+    </div>
+    <br>
+
+    <div class="flex justify-center items-center">
+        <div class="w-[90%]">
+            <h1 class="text-xl lg:text-4xl md:text-3xl sm:text-2xl text-blue-400">Updates</h1>
+            <br><hr><br>
+            <p class="lg:text-2xl md:text-2xl sm:text-sm">
+                    December 7, 2025 <br><br>
+                    1. Added delete function.  <br>
+                    ~ In the first version it doesn't have a delete function, so deleting a record is a hassle, as you need to delete it from the database, not in the system. <br><br>
+                    2. Report monthly separator <br>
+                    ~ The report is no longer messy, as I separated it monthly for compact generated reports. <br><br>
+                    3. Added total water intake <br>
+                    ~ In the water report you can now view how much water you drank even in the previous month. <br><br>
+                    4. Table Fix <br>
+                    ~ It's now 7 days, unlike in the previous version, which had 8, and I consider that a bug. <br><br>
+                    5. New Profile Section <br>
+                    ~ Section where users can update their name, username, and password. <br>
+            </p>
+        </div>
+    </div>
+
+    <br>
+    <div class="flex justify-center items-center">
+        <div class="w-[90%]">
+            <h1 class="text-xl lg:text-4xl md:text-3xl sm:text-2xl text-blue-400">About Project Development</h1>
+            <br><hr><br>
+            <p class="lg:text-2xl md:text-2xl sm:text-sm">During the development I used Visual Studio Code for editing and coding, HTML for structure, Tailwind CSS and Daisy UI for the design, JavaScript for tables, PHP for the server-side language, and MySQL for the database. About hosting. I use InfinityFree for free hosting, but 5 GB is the reason why I disabled profile pictures in the profile section. </p>
+        </div>
+    </div>
+    <br>
+
+    <div class="flex justify-center items-center">
+        <div class="w-[90%]">
+            <h1 class="text-xl lg:text-4xl md:text-3xl sm:text-2xl text-blue-400">Project Future Features</h1>
+            <br><hr><br>
+            <p class="lg:text-2xl md:text-2xl sm:text-sm">
+                Take note that the Project Future Features (PFF) are possible, but I don't know when to integrate since I don't have paid hosting; maybe I'll consider this in the future. <br> <br>
+                1. Email Forgot Password (EFP) <br>
+                ~ Reset password through email <br><br>
+                2. Email Notifications (EN) <br>
+                ~ Users can notify other family members if their patients exceed the limit. <br><br> 
+                3. E-Identification (E-ID) <br>
+                ~ Users can have a glucose and sugar ID where there's a QR code that, when your doctor scans it, will redirect to the web where they can view all your records, both water and sugar. <br><br>
+            </p>
+        </div>
+    </div>
+    <br>
+
+<div class="flex justify-center items-center">
+    <div class="w-[90%]">
+        <!-- carousel -->
+        <div class="carousel w-full">
+        <div id="item1" class="carousel-item w-full">
+            <img
+            src="images/glucose.png"
+            class="w-full" />
+        </div>
+        <div id="item2" class="carousel-item w-full">
+            <img
+            src="images/water.png"
+            class="w-full" />
+        </div>
+        <div id="item3" class="carousel-item w-full">
+            <img
+            src="images/sugar.png"
+            class="w-full" />
+        </div>
+        <div id="item4" class="carousel-item w-full">
+            <img
+            src="images/profile.png"
+            class="w-full" />
+        </div>
+        </div>
+        <div class="flex w-full justify-center gap-2 py-2">
+            <a href="#item1" class="btn btn-xs">1</a>
+            <a href="#item2" class="btn btn-xs">2</a>
+            <a href="#item3" class="btn btn-xs">3</a>
+            <a href="#item4" class="btn btn-xs">4</a>
+        </div>
+    </div>
+</div>
+
+<br> <br>   
+<div class="w-[90%] flex justify-center items-center m-10">
+ <div class="w-50%">
+
+    <div class="mockup-phone">
+        <div class="mockup-phone-display text-white grid place-content-center bg-neutral-900 obeject-cover">
+        <img src="images/mobile.jpg" alt="">
+        </div>
+    </div>
+
+ </div>
+ <div class="w-50% m-10">
+    <h1 class="text-xl text-blue-700 p-5 font-semibold lg:text-3xl md:text-3xl sm:text-1xl">Download App</h1>
+
+    <p class="lg:text-2xl md:text-2xl sm:text-sm"> This application is not yet released in the Play Store, <br>but this app is safe for your daily use. <br><br> 
+        ~Regards, Developer
+    </p>
+ </div>
+</div>
+
+<a href="https://drive.google.com/file/d/1iDJyqi1ABY0K6r3yl4An2BwuKQDDyz_j/view?usp=sharing" class="flex justify-center items-center"><button class="btn btn-active btn-info">Download</button></a>
+
+<div class="fab">
+  <!-- a focusable div with tabindex is necessary to work on all browsers. role="button" is necessary for accessibility -->
+  <div tabindex="0" role="button" class="btn btn-lg btn-circle btn-success"><img src="images/logo.png" alt=""></div>
+
+  <!-- buttons that show up when FAB is open -->
+  <button class="btn btn-lg"><a href="https://glucose.infinityfree.me/register.php">signup</a></button>
+  <button class="btn btn-lg"><a href="https://glucose.infinityfree.me">login</a></button>
+  <button class="btn btn-lg" href="https://glucose.infinityfree.me">Button C</button>
+</div>
+
+<!-- footer -->
+ <footer class="footer sm:footer-horizontal footer-center bg-blue-1 00 text-base-content p-4">
+  <aside>
+    <p>Copyright © 2025  - All right reserved by Celebre Software</p>
+  </aside>
+</footer>
+
+</body>
+</html>
